@@ -1,0 +1,278 @@
+:root {
+    --main-color: #45517B;
+    --main-tx-color: #00000077;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+
+}
+
+.container {
+    padding: 0px 200px;
+}
+
+header {
+    background-color: white;
+    height: 6vh;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0px 3px 16px -4px rgba(0, 0, 0, 0.25);
+
+   
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.item_menu {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+    align-items: center;
+}
+
+.item_menu li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.btn-btn {
+    float: right;
+    font-size: medium;
+    line-height: 0px;
+    background-color: white;
+    border: 2px solid #45517B;
+    border-radius: 50px;
+    padding: 0px 20px;
+}
+
+.btn-btn a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    align-items: center;
+}
+
+.section_1 {
+    height: 60vh;
+    display: flex;
+   
+ }
+
+.shrink_1{
+   width: 100%;
+   flex-basis: 70%;
+}
+
+.shrink_2{
+    width: 100%;
+    flex-basis: 50%;
+ }
+
+ .shrink_2 img{
+    margin: 170px 0px 0px 0px;
+   
+ }
+ 
+ .main_haeding {
+    padding: 175px 0px 0px 10px;
+     font-size: 50px;
+     color: var(--main-color);
+ }
+
+ .main_par {
+    line-height: 24px;
+    padding-top: 20px;
+    padding-left: 12px;
+    color: var(--main-tx-color);
+ }
+
+ .btn_par {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: medium;
+    padding: 20px 30px 20px 30px;
+    line-height: 0px;
+    background-color: white;
+    border: 2px solid #45517B;
+    border-radius: 50px; 
+ }
+
+ .btn_par a{
+    text-decoration: none;
+    font-weight: 700;
+ }
+
+ /* Section two */
+ .section_2 {
+     height: 60vh; 
+     background-color: var(--main-color);
+ }
+
+
+
+ .cards{
+    position: relative;
+    top:80px;
+    left: 80px;
+    display:flex;
+    
+}
+
+ /* card-1 start */
+.card_1 {
+    position: relative;
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.card_img{
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     position: absolute;
+     left: 110px;
+     top:-30px;
+     border: 4px solid var(--main-color);
+     
+}
+
+.card_title {
+    color: #45517B;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.card-body {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+ /* section two ends */
+
+ /* section three */
+  .section_3{
+    height: 150vh;
+ 
+  }
+
+  .section3_title {
+      margin-top: 70px;
+      font-size: 42px;
+      font-weight: 700;
+      color: #000000a1;
+    
+  }
+
+  .title_sp {
+      height: 10px;
+      width: 100px;
+      background-color: #45517B;
+      margin-top: 15px;
+  }
+
+  .information_one{
+    margin-top: 95px;
+  }
+
+  .information_one h1{
+    color: #45517B;
+  }
+
+  .line_one {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .line_two {
+    display: flex;
+    justify-content: center;
+}
+.line_four {
+    display: flex;
+    justify-content: flex-end;
+}
+
+  .information_one h3{
+    line-height: 24px;
+    padding-top: 20px;
+    color: white;
+    background-color: #45517B;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 13px;
+    margin-bottom: 10px;
+}
+
+  .information_one p{
+        line-height: 24px;
+        padding-top: 20px;
+        color: var(--main-tx-color);
+  }
+  /* section end three */
+
+
+/* section four */
+.section_4{
+    height: 15vh;
+    background-color: rgba(220, 220, 220, 0.29);
+}
+
+
+.paterners {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paterners img{
+    margin-top: 50px;
+    height: 50px; 
+}
+
+/* section end four */
+
+
+/* Foooter */
+   footer {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height: 6vh;
+    background-color:#45517B;
+    
+}
+
+.footer_text {
+    font-size: 20px;
+    float: left;
+    color: white;
+    font-weight: 900;
+    padding-top:22px;
+    padding-right:22px;
+}
+   /* Footer end */

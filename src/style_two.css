@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+
+}
+
+header {
+    background-color: white;
+    height: 6vh;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0px 3px 16px -4px rgba(0, 0, 0, 0.25);
+   
+}
+
+nav {
+    padding: 25px;
+}
+
+.logo-name {
+    float: left;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 6px;
+    text-transform: uppercase;
+}
+
+.btn-btn {
+    float: right;
+    font-size: medium;
+    padding: 15px 20px 15px 20px;
+    line-height: 0px;
+    position: relative;
+    bottom: 15px;
+    background-color: white;
+    border: 2px solid #FF4F4C;
+    border-radius: 50px;
+    
+}
+
+.btn-btn a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    align-items: 
+}
+
+
+
+.section_1 {
+   height: 50vh;
+  
+}
+.main-heading {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.heading {
+    font-size: 52px;
+    font-weight: 900;
+    color: #FF4F4C;
+    
+}
+
+.main-sub {
+    text-align:center;
+    padding:20px 100px 100px 100px;
+    line-height: 20px;
+}
+
+.main-sub em {
+    line-height: 50px;
+}
+
+/* section - two */
+
+
+.section_2{
+   
+    height: 60vh;
+    background-color: #d9d9d941;
+}
+
+.cards{
+    position: relative;
+    top:130px;
+    left: 400px;
+    display:inline-flex;
+    
+}
+
+ /* card-1 start */
+.card_1 {
+    position: relative;
+    height: 250px;
+    width: 300px;
+    border: 2px solid #FF4F4C;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.card_img{
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     position: absolute;
+     left: 110px;
+     top:-30px;
+     border: 4px solid #FF4F4C;
+     
+}
+
+.card_title {
+    color: #FF4F4C;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.card-body {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* card-1 end */
+
+.card_2 {
+    height: 250px;
+    width: 300px;
+    border: 2px solid #FF4F4C;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.card_3 {
+    height: 250px;
+    width: 300px;
+    border: 2px solid #FF4F4C;
+    border-radius: 10px;
+}
+
+footer {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height: 6vh;
+    background-color:#FF4F4C;
+    
+}
+
+.footer_text {
+    font-size: 20px;
+    float: right;
+    color: white;
+    font-weight: 900;
+    padding-top:22px;
+    padding-right:22px;
+}
+
+.section_3 {
+    height: 50vh;
+   
+ }
+
+ .news-block {
+    margin: 70px;
+   
+ }
+
+ .news_heading {
+    font-size: 35px;
+    font-weight: 900;
+    color: #FF4F4C;
+    padding-bottom: 40px;
+}
+
+.img_courses {
+    position: absolute;
+    left: 100px;
+}
+
+.news_img{
+  height: 260px;
+  width: 280px;
+  margin-right:30px ;
+}
